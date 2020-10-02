@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 1543394937}
   - component: {fileID: 1543394936}
   m_Layer: 0
-  m_Name: CubePlayer
+  m_Name: CubeRed
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 1801379261}
   - component: {fileID: 1801379260}
   m_Layer: 0
-  m_Name: CubeSub
+  m_Name: CubeBlue
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

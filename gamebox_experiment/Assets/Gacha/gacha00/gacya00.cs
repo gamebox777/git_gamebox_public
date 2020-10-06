@@ -23,9 +23,7 @@ public class gacya00 : MonoBehaviour
 
     /// <summary> ガチャ結果表示用text </summary>
     public Text TextResultList;
-
-    private List<Entity_Gacya00.Param> mGacyaParam = new List<Entity_Gacya00.Param>();
-
+    
     /// <summary> ガチャ回数 </summary>
     private int mGacyaCount = 1;
         

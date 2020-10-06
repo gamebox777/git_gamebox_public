@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f68196e-1860-4771-bcaa-7dac81498953" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/Gizmos00/Gizmos00.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gizmos/Gizmos00/Gizmos00.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamebox_experiment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/gamebox_experiment.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Gizmos/Gizmos00/Gizmos00.cs" />
+        <option value="$PROJECT_DIR$/Assets/Gacha/gacha00/gacya00.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +93,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601641389142</updated>
-      <workItem from="1601641400523" duration="1945000" />
+      <workItem from="1601641400523" duration="3431000" />
+      <workItem from="1601738427754" duration="4639000" />
+      <workItem from="1601986998653" duration="4000" />
+      <workItem from="1601987029107" duration="327000" />
+      <workItem from="1601987390887" duration="4322000" />
+      <workItem from="1601991780835" duration="315000" />
     </task>
     <servers />
   </component>
@@ -107,6 +117,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -116,6 +127,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="774" y="416" key="#Notifications/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601641415152" />
+    <state x="670" y="274" key="#Plugins" timestamp="1601987354735">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="670" y="274" key="#Plugins/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601987354735" />
     <state x="705" y="327" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601641404055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

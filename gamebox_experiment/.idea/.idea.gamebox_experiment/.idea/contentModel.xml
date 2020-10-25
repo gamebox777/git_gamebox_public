@@ -17,6 +17,15 @@
             <e p="Gizmos00.cs" t="Include" />
           </e>
         </e>
+        <e p="OfflineTimeMnager" t="Include">
+          <e p="OfflineTimeMnager01" t="Include">
+            <e p="OfflineTimeMnager01.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scene View Synced Camera" t="Include">
+          <e p="EditorCameraSyncScript.cs" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+        </e>
         <e p="Terasurware" t="Include">
           <e p="Classes" t="Include">
             <e p="Editor" t="Include">
@@ -59,6 +68,9 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
+        </e>
+        <e p="Utility" t="Include">
+          <e p="PlayerPrefsJsonUtil.cs" t="Include" />
         </e>
       </e>
       <e p="gamebox_experiment.sln" t="IncludeFlat" />

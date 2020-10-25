@@ -29,8 +29,7 @@ public class OfflineTimeMnager01 : MonoBehaviour
     {
         CalculateOfflineEarnings();    // オフライン時の経過時間を計算
     }
-
-
+    
     /// <summary>
     /// オフライン時の経過時間を計算
     /// </summary>
@@ -42,9 +41,9 @@ public class OfflineTimeMnager01 : MonoBehaviour
             oldDateTime = DateTime.Now;
         }
         
-        //アプリを停止していた時間を計算
+        //アプリを停止→再開していた経過時間計算
         TimeSpan timeElasped = currentDateTime - oldDateTime;    //経過した時間
-        float elapsedTimeInSeconds = (int)Math.Round(timeElasped.TotalSeconds, 0, MidpointRounding.ToEven);
+        float elapsedTimeInSeconds = (int)Math.Round(timeElasped.TotalSeconds, 0, MidpointRounding.ToEven); //経過時間を
         Debug.Log($"オフラインでの経過時間:{elapsedTimeInSeconds}秒");
     }
     
@@ -62,7 +61,6 @@ public class OfflineTimeMnager01 : MonoBehaviour
         //セーブデータ存在チェック
         if (PlayerPrefsJsonUtil.ExistData(SaveKeyString)) {
             //セーブデータ有り
-            classSaveData = new ClassSaveData();
             classSaveData = PlayerPrefsJsonUtil.GetObject<ClassSaveData>( SaveKeyString );
             oldDateTime = classSaveData.GetDateTime();
             string str = oldDateTime.ToString("yyyy/MM/dd HH:mm:ss");
@@ -84,33 +82,15 @@ public class OfflineTimeMnager01 : MonoBehaviour
     /// </summary>
     public void SaveDataSave()
     {
+        //デバッグ表示
         string str = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
         Debug.Log($"アプリ終了時：セーブ時の時間:{str}");
 
-        //DateTime型をString型に変換
+        //DateTime型をString型に変換してJSONで保存
         classSaveData.dateTimeString = DateTime.Now.ToBinary().ToString();
         PlayerPrefsJsonUtil.SetObject<ClassSaveData>(SaveKeyString,classSaveData,true);
     }
     
-    
-    #region SaveDataClass
-
-    /// <summary>
-    /// セーブデータクラス
-    /// </summary>
-    [Serializable]
-    public struct ClassSaveData
-    {
-        /// <summary> DateTime型はシリアライズ出来ないので文字列で保存 </summary>
-        public string dateTimeString;
-
-        public DateTime GetDateTime()
-        {
-            DateTime datetime = System.DateTime.FromBinary (System.Convert.ToInt64 (dateTimeString));
-            return datetime;
-        }
-    }
-
     /// <summary>
     /// セーブデータ作成
     /// </summary>
@@ -124,6 +104,25 @@ public class OfflineTimeMnager01 : MonoBehaviour
         return saveData;
     }
     
-    #endregion    //SaveDataClass
+    /// <summary>
+    /// セーブデータクラス
+    /// </summary>
+    [Serializable]
+    public struct ClassSaveData
+    {
+        /// <summary> DateTime型はシリアライズ出来ないので文字列型 </summary>
+        public string dateTimeString;
+
+        /// <summary>
+        /// DateTimeを文字列型で保存しているので、DateTime型に戻して取得
+        /// </summary>
+        /// <returns></returns>
+        public DateTime GetDateTime()
+        {
+            DateTime datetime = System.DateTime.FromBinary (System.Convert.ToInt64 (dateTimeString));
+            return datetime;
+        }
+    }
+    
 }
 

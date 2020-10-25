@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
 /// オフライン時の経過時間テスト
+/// 2020/10/25:ver1.0
+/// todo:OnApplicationPause,OnApplicationFocus時の処理は行っていません
 /// </summary>
 public class OfflineTimeMnager01 : MonoBehaviour
 {
@@ -47,6 +47,9 @@ public class OfflineTimeMnager01 : MonoBehaviour
         Debug.Log($"オフラインでの経過時間:{elapsedTimeInSeconds}秒");
     }
     
+    /// <summary>
+    /// アプリケーションが終了された時に呼ばれる
+    /// </summary>
     private void OnApplicationQuit()
     {
         Debug.Log("アプリが中断されたのでセーブ");

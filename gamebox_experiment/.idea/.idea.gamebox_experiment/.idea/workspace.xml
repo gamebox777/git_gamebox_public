@@ -22,8 +22,8 @@
     <list default="true" id="9f68196e-1860-4771-bcaa-7dac81498953" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gamebox_experiment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager01/OfflineTimeMnager01.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager01/OfflineTimeMnager01.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager01/OfflineTimeMnager01.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Gizmos/Gizmos00/Gizmos00.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager02/OfflineTimeManager02.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/33/e10dfddd/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Utility/Attribute/CustomLabelAttribute.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +51,11 @@
         <option value="$PROJECT_DIR$/Assets/Abandoned/Abandoned00/OfflineManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Utility/PlayerPrefsJsonSave.cs" />
         <option value="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager01/OfflineTimeMnager01.cs" />
+        <option value="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager02/OfflineTimeMnager02.cs" />
+        <option value="$PROJECT_DIR$/Assets/Utility/PlayerPrefsJsonUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager02/ResourceNumberTextDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager02/OfflineTimeManager02.cs" />
+        <option value="$PROJECT_DIR$/Assets/OfflineTimeMnager/OfflineTimeMnager02/OnlineManager.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +119,12 @@
       <workItem from="1602945402207" duration="120000" />
       <workItem from="1602945533460" duration="5363000" />
       <workItem from="1603536422477" duration="11065000" />
-      <workItem from="1603586841157" duration="316000" />
+      <workItem from="1603586841157" duration="4415000" />
+      <workItem from="1603808889956" duration="974000" />
+      <workItem from="1603979960518" duration="2959000" />
+      <workItem from="1604069417506" duration="4482000" />
+      <workItem from="1604146993735" duration="8439000" />
+      <workItem from="1604200113203" duration="630000" />
     </task>
     <servers />
   </component>

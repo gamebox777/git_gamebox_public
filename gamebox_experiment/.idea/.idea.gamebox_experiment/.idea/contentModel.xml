@@ -21,6 +21,10 @@
           <e p="OfflineTimeMnager01" t="Include">
             <e p="OfflineTimeMnager01.cs" t="Include" />
           </e>
+          <e p="OfflineTimeMnager02" t="Include">
+            <e p="OfflineTimeManager02.cs" t="Include" />
+            <e p="OnlineManager.cs" t="Include" />
+          </e>
         </e>
         <e p="Scene View Synced Camera" t="Include">
           <e p="EditorCameraSyncScript.cs" t="Include" />
@@ -70,6 +74,12 @@
           </e>
         </e>
         <e p="Utility" t="Include">
+          <e p="Attribute" t="Include">
+            <e p="CustomLabelAttribute.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CustomLabelDrawer.cs" t="Include" />
+            </e>
+          </e>
           <e p="PlayerPrefsJsonUtil.cs" t="Include" />
         </e>
       </e>

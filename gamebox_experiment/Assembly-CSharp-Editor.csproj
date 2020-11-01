@@ -60,6 +60,7 @@
   <ItemGroup>
      <Compile Include="Assets\Terasurware\Classes\Editor\ExcelGacya_importer.cs" />
      <Compile Include="Assets\Terasurware\Editor\ExcelImporterMaker.cs" />
+     <Compile Include="Assets\Utility\Attribute\Editor\CustomLabelDrawer.cs" />
      <None Include="Assets\Terasurware\Editor\EntityTemplate2.txt" />
      <None Include="Assets\Terasurware\Editor\EntityTemplate.txt" />
      <None Include="Assets\Terasurware\Editor\ExportTemplate2.txt" />

@@ -61,8 +61,11 @@
      <Compile Include="Assets\Gacha\gacha00\gacya00.cs" />
      <Compile Include="Assets\Gizmos\Gizmos00\Gizmos00.cs" />
      <Compile Include="Assets\OfflineTimeMnager\OfflineTimeMnager01\OfflineTimeMnager01.cs" />
+     <Compile Include="Assets\OfflineTimeMnager\OfflineTimeMnager02\OfflineTimeManager02.cs" />
+     <Compile Include="Assets\OfflineTimeMnager\OfflineTimeMnager02\OnlineManager.cs" />
      <Compile Include="Assets\Scene View Synced Camera\EditorCameraSyncScript.cs" />
      <Compile Include="Assets\Terasurware\Classes\Entity_Gacya00.cs" />
+     <Compile Include="Assets\Utility\Attribute\CustomLabelAttribute.cs" />
      <Compile Include="Assets\Utility\PlayerPrefsJsonUtil.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
